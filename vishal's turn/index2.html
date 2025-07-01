@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">
+            <!-- <img width="30" src="img/logo.svg" alt="logo"> -->
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="44" height="44" color="#000000"
+                fill="white">
+                <circle cx="12" cy="12" r="10" stroke="#000000" stroke-width="2"></circle>
+                <path
+                    d="M7.5 12.0685C8.59944 11.6998 9.77639 11.5 11 11.5C13.0238 11.5 14.9199 12.0465 16.5488 13M18 10C16.1509 8.7383 13.9122 8 11.5 8C9.90307 8 8.38216 8.32358 7 8.90839M15.129 16C13.8927 15.3609 12.4894 15 11.0018 15C10.1819 15 9.38762 15.1096 8.63281 15.315"
+                    stroke="#000000" stroke-width="2" stroke-linecap="round"></path>
+            </svg>
+
+
+
+            <!-- <img width="30" src="img/home.svg" alt="home"> -->
+            <svg data-encore-id="icon" role="img" aria-hidden="true" class="e-9911-icon e-9911-baseline"
+                viewBox="0 0 24 24" width="30" height="30" color="#ffffff" fill="CurrentColor">
+                <path
+                    d="M13.5 1.515a3 3 0 0 0-3 0L3 5.845a2 2 0 0 0-1 1.732V21a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1v-6h4v6a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V7.577a2 2 0 0 0-1-1.732l-7.5-4.33z">
+                </path>
+            </svg>
+
+            <div class="searchbar">
+                <!-- <img width="30" src="img/search.svg" alt=""> -->
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#ffffff"
+                    fill="none">
+                    <path d="M17 17L21 21" stroke="#ffffff" stroke-width="3" stroke-linecap="round"
+                        stroke-linejoin="round">
+                    </path>
+                    <path
+                        d="M19 11C19 6.58172 15.4183 3 11 3C6.58172 3 3 6.58172 3 11C3 15.4183 6.58172 19 11 19C15.4183 19 19 15.4183 19 11Z"
+                        stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                </svg>
+                What do you want to play?
+            </div>
+        </div>
+        <div class="buttons">
+            <button class="btn1">Premium</button>
+            <button class="btn1">Support</button>
+            <button class="btn1">Download</button>
+            <p class="seperate">|</p>
+            <button class="btn2 install">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#ffffff"
+                    fill="none">
+                    <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="1.5" />
+                    <path
+                        d="M12 16L12 8M12 16C11.2998 16 9.99153 14.0057 9.5 13.5M12 16C12.7002 16 14.0085 14.0057 14.5 13.5"
+                        stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+                Install App
+            </button>
+            <button class="btn2">Sign up</button>
+            <button class="btn2 login">Log in</button>
+        </div>
+    </header>
+    <div class="container">
+        <div class="left">
+            <div class="library">
+                <p>Your Library</p>
+                <p class="plus">+</p>
+            </div>
+            <div class="leftcards">
+                <h3>Create your first playlist</h3>
+                <h5>It's easy we'll help you</h5>
+                <button>Create playlist</button>
+            </div>
+            <div class="leftcards">
+                <h3>Let's find some podcast to follow</h3>
+                <h5>We'll keep you updated on new episodes</h5>
+                <button>Browse podcasts</button>
+            </div>
+            <footer>
+                <div class="leftfooter">
+                    <p>Legal</p>
+                    <p>Safety & Privacy Center</p>
+                    <p>Privacy Policy</p>
+                    <p>Cookies</p>
+                    <p>About Ads</p>
+                    <p>Accessibility</p>
+                </div>
+                <span>Cookies</span>
+
+                <button class="lang">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20" color="#ffffff"
+                        fill="none">
+                        <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="1.5" />
+                        <path d="M8 12C8 18 12 22 12 22C12 22 16 18 16 12C16 6 12 2 12 2C12 2 8 6 8 12Z"
+                            stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" />
+                        <path d="M21 15H3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                        <path d="M21 9H3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </svg>
+                    English
+                </button>
+            </footer>
+        </div>
+        <div class="right">
+            <h2>Trending songs</h2>
+            <div class="trendsong">
+                <div class="card">
+                    <img src="/songs/Angry_(mood)/cover.jpg" alt="">
+                    <button class="spotify-play-button">
+                        <svg viewBox="0 0 24 24" width="24" height="24" fill="white">
+                            <path d="M8 5v14l11-7z" />
+                        </svg>
+                    </button>
+                    <h3>Angry mood</h3>
+                    <h5>Calm your anger</h5>
+                </div>
+
+                <div class="card">
+                    <img src="/songs/Angry_(mood)/cover.jpg" alt="">
+                    <button class="spotify-play-button">
+                        <svg viewBox="0 0 24 24" width="24" height="24" fill="white">
+                            <path d="M8 5v14l11-7z" />
+                        </svg>
+                    </button>
+                    <h3>Angry mood</h3>
+                    <h5>Calm your anger</h5>
+                </div>
+
+                <div class="card">
+                    <img src="/songs/Angry_(mood)/cover.jpg" alt="">
+                    <button class="spotify-play-button">
+                        <svg viewBox="0 0 24 24" width="24" height="24" fill="white">
+                            <path d="M8 5v14l11-7z" />
+                        </svg>
+                    </button>
+                    <h3>Angry mood</h3>
+                    <h5>Calm your anger</h5>
+                </div>
+
+                <div class="card">
+                    <img src="/songs/Angry_(mood)/cover.jpg" alt="">
+                    <button class="spotify-play-button">
+                        <svg viewBox="0 0 24 24" width="24" height="24" fill="white">
+                            <path d="M8 5v14l11-7z" />
+                        </svg>
+                    </button>
+                    <h3>Angry mood</h3>
+                    <h5>Calm your anger</h5>
+                </div>
+
+                <div class="card">
+                    <img src="/songs/Angry_(mood)/cover.jpg" alt="">
+                    <button class="spotify-play-button">
+                        <svg viewBox="0 0 24 24" width="24" height="24" fill="white">
+                            <path d="M8 5v14l11-7z" />
+                        </svg>
+                    </button>
+                    <h3>Angry mood</h3>
+                    <h5>Calm your anger</h5>
+                </div>
+
+                <div class="card">
+                    <img src="/songs/Angry_(mood)/cover.jpg" alt="">
+                    <button class="spotify-play-button">
+                        <svg viewBox="0 0 24 24" width="24" height="24" fill="white">
+                            <path d="M8 5v14l11-7z" />
+                        </svg>
+                    </button>
+                    <h3>Angry mood</h3>
+                    <h5>Calm your anger</h5>
+                </div>
+
+                <div class="card">
+                    <img src="/songs/Angry_(mood)/cover.jpg" alt="">
+                    <button class="spotify-play-button">
+                        <svg viewBox="0 0 24 24" width="24" height="24" fill="white">
+                            <path d="M8 5v14l11-7z" />
+                        </svg>
+                    </button>
+                    <h3>Angry mood</h3>
+                    <h5>Calm your anger</h5>
+                </div>
+
+
+            </div>
+            <h2>Popular artists</h2>
+            <div class="artists">
+                <div class="circle">
+                    <img src="/songs/karan aujla/cover.jpg" alt="">
+                    <button class="spotify-play-button">
+                        <svg viewBox="0 0 24 24" width="24" height="24" fill="white">
+                            <path d="M8 5v14l11-7z" />
+                        </svg>
+                    </button>
+                    <h3>Karan aujla</h3>
+                    <h5>Karan aujla for you</h5>
+                </div>
+
+
+                <div class="circle">
+                    <img src="/songs/karan aujla/cover.jpg" alt="">
+                    <button class="spotify-play-button">
+                        <svg viewBox="0 0 24 24" width="24" height="24" fill="white">
+                            <path d="M8 5v14l11-7z" />
+                        </svg>
+                    </button>
+                    <h3>Karan aujla</h3>
+                    <h5>Karan aujla for you</h5>
+                </div>
+
+
+                <div class="circle">
+                    <img src="/songs/karan aujla/cover.jpg" alt="">
+                    <button class="spotify-play-button">
+                        <svg viewBox="0 0 24 24" width="24" height="24" fill="white">
+                            <path d="M8 5v14l11-7z" />
+                        </svg>
+                    </button>
+                    <h3>Karan aujla</h3>
+                    <h5>Karan aujla for you</h5>
+                </div>
+
+
+                <div class="circle">
+                    <img src="/songs/karan aujla/cover.jpg" alt="">
+                    <button class="spotify-play-button">
+                        <svg viewBox="0 0 24 24" width="24" height="24" fill="white">
+                            <path d="M8 5v14l11-7z" />
+                        </svg>
+                    </button>
+                    <h3>Karan aujla</h3>
+                    <h5>Karan aujla for you</h5>
+                </div>
+
+
+                <div class="circle">
+                    <img src="/songs/karan aujla/cover.jpg" alt="">
+                    <button class="spotify-play-button">
+                        <svg viewBox="0 0 24 24" width="24" height="24" fill="white">
+                            <path d="M8 5v14l11-7z" />
+                        </svg>
+                    </button>
+                    <h3>Karan aujla</h3>
+                    <h5>Karan aujla for you</h5>
+                </div>
+
+
+                <div class="circle">
+                    <img src="/songs/karan aujla/cover.jpg" alt="">
+                    <button class="spotify-play-button">
+                        <svg viewBox="0 0 24 24" width="24" height="24" fill="white">
+                            <path d="M8 5v14l11-7z" />
+                        </svg>
+                    </button>
+                    <h3>Karan aujla</h3>
+                    <h5>Karan aujla for you</h5>
+                </div>
+
+
+                <div class="circle">
+                    <img src="/songs/karan aujla/cover.jpg" alt="">
+                    <button class="spotify-play-button">
+                        <svg viewBox="0 0 24 24" width="24" height="24" fill="white">
+                            <path d="M8 5v14l11-7z" />
+                        </svg>
+                    </button>
+                    <h3>Karan aujla</h3>
+                    <h5>Karan aujla for you</h5>
+                </div>
+
+
+                <div class="circle">
+                    <img src="/songs/karan aujla/cover.jpg" alt="">
+                    <button class="spotify-play-button">
+                        <svg viewBox="0 0 24 24" width="24" height="24" fill="white">
+                            <path d="M8 5v14l11-7z" />
+                        </svg>
+                    </button>
+                    <h3>Karan aujla</h3>
+                    <h5>Karan aujla for you</h5>
+                </div>
+
+            </div>
+            <h2>Popular albums</h2>
+            <div class="albums">
+                <div class="card">
+                    <img src="/songs/Diljit/cover.jpg" alt="">
+                    <button class="spotify-play-button">
+                        <svg viewBox="0 0 24 24" width="24" height="24" fill="white">
+                            <path d="M8 5v14l11-7z" />
+                        </svg>
+                    </button>
+                    <h3>Diljit Dosanjh</h3>
+                    <h5>Diljit Dosanjh hits</h5>
+                </div>
+
+                <div class="card">
+                    <img src="/songs/Diljit/cover.jpg" alt="">
+                    <button class="spotify-play-button">
+                        <svg viewBox="0 0 24 24" width="24" height="24" fill="white">
+                            <path d="M8 5v14l11-7z" />
+                        </svg>
+                    </button>
+                    <h3>Diljit Dosanjh</h3>
+                    <h5>Diljit Dosanjh hits</h5>
+                </div>
+
+                <div class="card">
+                    <img src="/songs/Diljit/cover.jpg" alt="">
+                    <button class="spotify-play-button">
+                        <svg viewBox="0 0 24 24" width="24" height="24" fill="white">
+                            <path d="M8 5v14l11-7z" />
+                        </svg>
+                    </button>
+                    <h3>Diljit Dosanjh</h3>
+                    <h5>Diljit Dosanjh hits</h5>
+                </div>
+
+                <div class="card">
+                    <img src="/songs/Diljit/cover.jpg" alt="">
+                    <button class="spotify-play-button">
+                        <svg viewBox="0 0 24 24" width="24" height="24" fill="white">
+                            <path d="M8 5v14l11-7z" />
+                        </svg>
+                    </button>
+                    <h3>Diljit Dosanjh</h3>
+                    <h5>Diljit Dosanjh hits</h5>
+                </div>
+
+                <div class="card">
+                    <img src="/songs/Diljit/cover.jpg" alt="">
+                    <button class="spotify-play-button">
+                        <svg viewBox="0 0 24 24" width="24" height="24" fill="white">
+                            <path d="M8 5v14l11-7z" />
+                        </svg>
+                    </button>
+                    <h3>Diljit Dosanjh</h3>
+                    <h5>Diljit Dosanjh hits</h5>
+                </div>
+
+                <div class="card">
+                    <img src="/songs/Diljit/cover.jpg" alt="">
+                    <button class="spotify-play-button">
+                        <svg viewBox="0 0 24 24" width="24" height="24" fill="white">
+                            <path d="M8 5v14l11-7z" />
+                        </svg>
+                    </button>
+                    <h3>Diljit Dosanjh</h3>
+                    <h5>Diljit Dosanjh hits</h5>
+                </div>
+
+                <div class="card">
+                    <img src="/songs/Diljit/cover.jpg" alt="">
+                    <button class="spotify-play-button">
+                        <svg viewBox="0 0 24 24" width="24" height="24" fill="white">
+                            <path d="M8 5v14l11-7z" />
+                        </svg>
+                    </button>
+                    <h3>Diljit Dosanjh</h3>
+                    <h5>Diljit Dosanjh hits</h5>
+                </div>
+
+                <div class="card">
+                    <img src="/songs/Diljit/cover.jpg" alt="">
+                    <button class="spotify-play-button">
+                        <svg viewBox="0 0 24 24" width="24" height="24" fill="white">
+                            <path d="M8 5v14l11-7z" />
+                        </svg>
+                    </button>
+                    <h3>Diljit Dosanjh</h3>
+                    <h5>Diljit Dosanjh hits</h5>
+                </div>
+
+            </div>
+            <h2>Popular radio</h2>
+            <div class="radio">
+                <div class="card">
+                    <img src="/songs/Uplifting_(mood)/cover.jpg" alt="">
+                    <button class="spotify-play-button">
+                        <svg viewBox="0 0 24 24" width="24" height="24" fill="white">
+                            <path d="M8 5v14l11-7z" />
+                        </svg>
+                    </button>
+                    <h3>Get Up!!</h3>
+                    <h5>You can do it!!</h5>
+                </div>
+
+                <div class="card">
+                    <img src="/songs/Uplifting_(mood)/cover.jpg" alt="">
+                    <button class="spotify-play-button">
+                        <svg viewBox="0 0 24 24" width="24" height="24" fill="white">
+                            <path d="M8 5v14l11-7z" />
+                        </svg>
+                    </button>
+                    <h3>Get Up!!</h3>
+                    <h5>You can do it!!</h5>
+                </div>
+
+                <div class="card">
+                    <img src="/songs/Uplifting_(mood)/cover.jpg" alt="">
+                    <button class="spotify-play-button">
+                        <svg viewBox="0 0 24 24" width="24" height="24" fill="white">
+                            <path d="M8 5v14l11-7z" />
+                        </svg>
+                    </button>
+                    <h3>Get Up!!</h3>
+                    <h5>You can do it!!</h5>
+                </div>
+
+                <div class="card">
+                    <img src="/songs/Uplifting_(mood)/cover.jpg" alt="">
+                    <button class="spotify-play-button">
+                        <svg viewBox="0 0 24 24" width="24" height="24" fill="white">
+                            <path d="M8 5v14l11-7z" />
+                        </svg>
+                    </button>
+                    <h3>Get Up!!</h3>
+                    <h5>You can do it!!</h5>
+                </div>
+
+                <div class="card">
+                    <img src="/songs/Uplifting_(mood)/cover.jpg" alt="">
+                    <button class="spotify-play-button">
+                        <svg viewBox="0 0 24 24" width="24" height="24" fill="white">
+                            <path d="M8 5v14l11-7z" />
+                        </svg>
+                    </button>
+                    <h3>Get Up!!</h3>
+                    <h5>You can do it!!</h5>
+                </div>
+
+                <div class="card">
+                    <img src="/songs/Uplifting_(mood)/cover.jpg" alt="">
+                    <button class="spotify-play-button">
+                        <svg viewBox="0 0 24 24" width="24" height="24" fill="white">
+                            <path d="M8 5v14l11-7z" />
+                        </svg>
+                    </button>
+                    <h3>Get Up!!</h3>
+                    <h5>You can do it!!</h5>
+                </div>
+
+                <div class="card">
+                    <img src="/songs/Uplifting_(mood)/cover.jpg" alt="">
+                    <button class="spotify-play-button">
+                        <svg viewBox="0 0 24 24" width="24" height="24" fill="white">
+                            <path d="M8 5v14l11-7z" />
+                        </svg>
+                    </button>
+                    <h3>Get Up!!</h3>
+                    <h5>You can do it!!</h5>
+                </div>
+
+                <div class="card">
+                    <img src="/songs/Uplifting_(mood)/cover.jpg" alt="">
+                    <button class="spotify-play-button">
+                        <svg viewBox="0 0 24 24" width="24" height="24" fill="white">
+                            <path d="M8 5v14l11-7z" />
+                        </svg>
+                    </button>
+                    <h3>Get Up!!</h3>
+                    <h5>You can do it!!</h5>
+                </div>
+
+            </div>
+            <div class="line">
+
+            </div>
+            <footer>
+                <div class="rightfooter">
+                    <div class="category">
+                        <p>Company</p>
+                        <ul>
+                            <li>About</li>
+                            <li>Jobs</li>
+                            <li>For the Record</li>
+                        </ul>
+                    </div>
+                    <div class="category">
+                        <p>Communities</p>
+                        <ul>
+                            <li>For artists</li>
+                            <li>Developers</li>
+                            <li>Advertising</li>
+                            <li>Investors</li>
+                            <li>Vendors</li>
+                        </ul>
+                    </div>
+                    <div class="category">
+                        <p>Useful Links</p>
+                        <ul>
+                            <li>Support</li>
+                            <li>Free mobile app</li>
+                            <li>Popular by country</li>
+                        </ul>
+                    </div>
+                    <div class="category">
+                        <p>Spotify Plans</p>
+                        <ul>
+                            <li>Premium individual</li>
+                            <li>Premium dou</li>
+                            <li>Premium family</li>
+                            <li>Premium students</li>
+                            <li>Spotify Free</li>
+                        </ul>
+                    </div>
+                    <div class="icon">
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="30" height="30"
+                                color="#ffffff" fill="none">
+                                <path
+                                    d="M2.5 12C2.5 7.52166 2.5 5.28249 3.89124 3.89124C5.28249 2.5 7.52166 2.5 12 2.5C16.4783 2.5 18.7175 2.5 20.1088 3.89124C21.5 5.28249 21.5 7.52166 21.5 12C21.5 16.4783 21.5 18.7175 20.1088 20.1088C18.7175 21.5 16.4783 21.5 12 21.5C7.52166 21.5 5.28249 21.5 3.89124 20.1088C2.5 18.7175 2.5 16.4783 2.5 12Z"
+                                    stroke="#ffffff" stroke-width="2" stroke-linejoin="round"></path>
+                                <path
+                                    d="M16.5 12C16.5 14.4853 14.4853 16.5 12 16.5C9.51472 16.5 7.5 14.4853 7.5 12C7.5 9.51472 9.51472 7.5 12 7.5C14.4853 7.5 16.5 9.51472 16.5 12Z"
+                                    stroke="#ffffff" stroke-width="2"></path>
+                                <path d="M17.5078 6.5L17.4988 6.5" stroke="#ffffff" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round"></path>
+                            </svg>
+                        </div>
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="30" height="30"
+                                color="#ffffff" fill="none">
+                                <path
+                                    d="M2 18.5C3.76504 19.521 5.81428 20 8 20C14.4808 20 19.7617 14.8625 19.9922 8.43797L22 4.5L18.6458 5C17.9407 4.37764 17.0144 4 16 4C13.4276 4 11.5007 6.51734 12.1209 8.98003C8.56784 9.20927 5.34867 7.0213 3.48693 4.10523C2.25147 8.30185 3.39629 13.3561 6.5 16.4705C6.5 17.647 3.5 18.3488 2 18.5Z"
+                                    stroke="#ffffff" stroke-width="2" stroke-linejoin="round"></path>
+                            </svg>
+                        </div>
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="30" height="30"
+                                color="#ffffff" fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M6.18182 10.3333C5.20406 10.3333 5 10.5252 5 11.4444V13.1111C5 14.0304 5.20406 14.2222 6.18182 14.2222H8.54545V20.8889C8.54545 21.8081 8.74951 22 9.72727 22H12.0909C13.0687 22 13.2727 21.8081 13.2727 20.8889V14.2222H15.9267C16.6683 14.2222 16.8594 14.0867 17.0631 13.4164L17.5696 11.7497C17.9185 10.6014 17.7035 10.3333 16.4332 10.3333H13.2727V7.55556C13.2727 6.94191 13.8018 6.44444 14.4545 6.44444H17.8182C18.7959 6.44444 19 6.25259 19 5.33333V3.11111C19 2.19185 18.7959 2 17.8182 2H14.4545C11.191 2 8.54545 4.48731 8.54545 7.55556V10.3333H6.18182Z"
+                                    stroke="#ffffff" stroke-width="2" stroke-linejoin="round"></path>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
